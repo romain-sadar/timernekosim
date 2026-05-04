@@ -21,7 +21,7 @@ for directory in directories:
 
 html_cleaner = re.compile('<.*?>') 
 
-# Senin istediğin tam liste stat eşleşmeleri
+
 STAT_REPLACE = {
     "Max HP": "HP",
     "Elemental Mastery": "EM",
